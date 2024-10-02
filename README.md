@@ -1,5 +1,13 @@
 # Documentação do Simulador de Elevadores
 
+### Participantes
+
+--Joao Rocha Murgel RA: 10410293
+--Joao Pedro Gianfaldoni RA: 10409524
+--Henrique Pena Ribeiro RA: 10417975
+
+
+
 ### Introdução
 Este documento apresenta um simulador de elevadores desenvolvido em linguagem C, utilizando multithreading. O objetivo é simular o funcionamento de elevadores em um prédio de 25 andares, atendendo a pedidos feitos pelos usuários. Para isso, o simulador utiliza threads, sincronização e controle de concorrência, garantindo que os elevadores operem de forma correta e eficiente.
 
