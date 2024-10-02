@@ -71,6 +71,7 @@ Recebimento de novos pedidos.
 Movimentação entre andares.
 Atendimento de pedidos.
 Mudanças no estado do elevador (ocupado ou livre).
+
 --Finalização
 
 O simulador é executado em um loop infinito e não termina automaticamente.
