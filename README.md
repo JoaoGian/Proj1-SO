@@ -76,7 +76,7 @@ Mudanças no estado do elevador (ocupado ou livre).
 
 O simulador é executado em um loop infinito e não termina automaticamente.
 Para encerrar o programa, é necessário interrompê-lo manualmente (por exemplo, usando Ctrl + C).
-#Conclusão
+### Conclusão
 O simulador de elevadores implementa de forma eficaz o uso de threads, mutexes e variáveis de condição para gerenciar a concorrência e a comunicação entre os elevadores e os pedidos. Embora a lógica seja simples, ela é suficiente para simular um sistema real de elevadores e pode ser facilmente expandida para incluir funcionalidades mais avançadas, como otimização na distribuição de pedidos e controle de capacidade dos elevadores.
 
 Com a documentação e os logs gerados, é possível entender claramente como o sistema funciona e como os problemas comuns de concorrência, como condições de corrida e deadlocks, foram evitados.
