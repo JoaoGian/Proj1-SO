@@ -51,16 +51,20 @@ Para simular o tempo de deslocamento entre os andares, usamos a função sleep(a
 
 ### Comportamento do Sistema durante a Execução
 --Inicialização
+
 Os três elevadores são iniciados e posicionados no andar 0.
 A thread de monitoramento de pedidos é iniciada para permitir que os usuários façam pedidos.
 --Recebimento de Pedidos
+
 O usuário insere o andar de destino (entre 0 e 24) para criar um novo pedido.
 A thread de monitoramento adiciona o pedido à fila e notifica os elevadores sobre a nova solicitação.
 --Movimentação dos Elevadores
+
 Cada elevador verifica a fila de pedidos.
 Se houver um pedido pendente, o elevador se move até o andar solicitado para atendê-lo.
 O sistema exibe mensagens no console para informar sobre a movimentação e o atendimento do pedido.
 --Logs do Sistema
+
 O simulador gera logs para acompanhar as ações dos elevadores, como:
 
 Recebimento de novos pedidos.
@@ -68,6 +72,7 @@ Movimentação entre andares.
 Atendimento de pedidos.
 Mudanças no estado do elevador (ocupado ou livre).
 --Finalização
+
 O simulador é executado em um loop infinito e não termina automaticamente.
 Para encerrar o programa, é necessário interrompê-lo manualmente (por exemplo, usando Ctrl + C).
 #Conclusão
