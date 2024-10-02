@@ -1,4 +1,4 @@
-##Main
+#Main
 
 #include "simulador_elevadores.h"
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main() {
 
 
 
-##Simulador_elevadores.h
+#Simulador_elevadores.h
 
 
 #ifndef SIMULADOR_ELEVADORES_H
@@ -67,7 +67,7 @@ void* monitorar_pedidos(void* arg);
 #endif // SIMULADOR_ELEVADORES_H
 
 
-##Simulador_elevadores.c
+#Simulador_elevadores.c
 
   #include "simulador_elevadores.h"
 #include <stdio.h>
